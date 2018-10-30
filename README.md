@@ -1,8 +1,10 @@
 # Simulated-Annealing-Algorithm
-Simulated Annealing is a kind of probabilistic global optimization techniques based on natural phenomena, which is inspired by physical process of annealing. This Algorithm is written in Octave 4.0.0.
+Simulated Annealing is a kind of probabilistic global optimization techniques based on natural phenomena, which is inspired by physical process of annealing. The objective of physical annealing is to produce low-energy states of a solid ina heat bath. This Algorithm is written in Octave 4.0.0.
 
     function []=SimulatedAnnealing(i,T,eps,r)
-
+	
+	by: susilestr
+	
     %%Plot of function%%
 	x=-4:0.1:4;
 	y=-4:0.1:4;
